@@ -5,10 +5,10 @@ import useStyles from './styles'
 import NewsCard from '../NewsCard/NewsCard'
 
 const infoCards = [
-    { color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },
-    { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
-    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'What\'s up with PlayStation 5' },
-    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' },
+    { color: '#00A6A6', title: 'Latest News', text: 'Give me the latest news' },
+    { color: '#32AAE1', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
+    { color: '#F08700', title: 'News by Terms', info: 'Cricket, Chittagong, Smartphones, Football...', text: 'What\'s up with Bangladesh' },
+    { color: '#29285B', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Give me the news from CNN' },
   ];
 
 const NewsCards = ({articles, activeArticle}) => {
