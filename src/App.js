@@ -4,7 +4,7 @@ import wordsToNumbers from 'words-to-numbers';
 import NewsCards from './components/NewsCards/NewsCards';
 import useStyles from './styles'
 import jhontoo from './images/jhontoo.png'
-const alanKey = '9eb1c31406f530e43fa91e3c85127f292e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = "9eb1c31406f530e43fa91e3c85127f292e956eca572e1d8b807a3e2338fdd0dc/stage";
 
 const App = () => {
     const classes = useStyles();
